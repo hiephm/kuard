@@ -16,7 +16,7 @@ COPY . .
 ENV VERBOSE=0
 ENV PKG=github.com/kubernetes-up-and-running/kuard
 ENV ARCH=amd64
-ENV VERSION=0.13.2
+ENV VERSION=0.14
 # Do the build. Script is part of incoming sources.
 RUN build/build.sh
 
